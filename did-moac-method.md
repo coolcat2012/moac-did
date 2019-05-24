@@ -31,3 +31,10 @@ As there is no centralised control of the registry contract, no party can revoke
 As mentioned in the Key Recovery section, the entity which controls the private key which anchored the DID also effectively controls the DID Document which the DID resolves to. Thus great care should be taken to ensure that the private key is kept private. Methods for ensuring key privacy are outside the scope of this document.
 ### DID Document Public Profile
 The DID Document anchored with the registry contract can contain any content, though it is recommended that it conforms to the [W3C DID Document Specificaiton](https://w3c-ccg.github.io/did-spec/#did-documents). As registered DIDs can be resolved by anyone, care should be taken to only update the registry to resolve to DID Documents which DO NOT expose any sensitive personal information, or information which you may not wish to be public.
+
+## References
+[1]. MOAC foundation, https://www.moac.io
+
+[2]. MOAC project github, https://github.com/MOACChain
+
+[3]. W3C Decentralized Identifiers (DIDs) v0.11, https://w3c-ccg.github.io/did-spec
