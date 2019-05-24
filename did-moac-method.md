@@ -9,6 +9,11 @@ The MOAC DID method uses MOAC blockchain as a decentralized storage layer for DI
 ## Specification
 ### Method DID Format
 MOAC DIDs are identifiable by their did\:moac: method string and conform to the [Generic DID Scheme](https://w3c-ccg.github.io/did-spec/#the-generic-did-scheme).
+
+Example `moac` DID:
+
+ `did:moac:2f2b37c890824242cb9b0fe5614fa2221b79901e`
+
 ### DID Creation
 The creation of a DID follows a few steps:
 1. Generate 32 bytes of entropy
