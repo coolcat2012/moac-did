@@ -1,5 +1,5 @@
 # MOAC DID Method Specification
-V0.1, Martin Ma, MOAC
+
 ## Introduction
 The MOAC distributed identity system aims to provide a secure, robust and flexible implementation of the DID and Verifiable Claims specifications published by the W3C and the Decentralised Identity Foundation. It’s core technologies are the MOAC blockchain.
 ### MOAC
