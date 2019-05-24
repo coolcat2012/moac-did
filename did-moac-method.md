@@ -5,7 +5,7 @@ The MOAC distributed identity system aims to provide a secure, robust and flexib
 ### MOAC
 MOAC is a public permissionless blockchain and smart contract execution environment. The Virtual Machine system provides certainty and security about code execution by being based upon a public blockchain.
 ## Overview
-The MOAC DID method uses MOAC blockchain as a decentralised CAS layer for DID Documents. A deployed smart contract provides a mapping from a DID to an MOAC blockchain hash address of the corrosponding DID Document. This enables DID Documents on MOAC blockchain to be effectively addressed via their DIDs. 
+The MOAC DID method uses MOAC blockchain as a decentralized storage layer for DID Documents. A deployed smart contract provides a mapping from a DID to an MOAC blockchain hash address of the corrosponding DID Document. This enables DID Documents on MOAC blockchain to be effectively addressed via their DIDs. 
 ## Specification
 ### Method DID Format
 MOAC DIDs are identifiable by their did\:moac: method string and conform to the [Generic DID Scheme](https://w3c-ccg.github.io/did-spec/#the-generic-did-scheme).
