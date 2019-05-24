@@ -14,6 +14,7 @@ The creation of a DID follows a few steps:
 1. Generate 32 bytes of entropy
 2. From the entropy, generate an MOAC blockchain key pair
 3. From the MOAC blockchain key pair, take the keccak256 hash of the public key
+
 The hash from step 3 is your DID.
 ### DID Registration/Anchoring
 DID Anchoring refers to creating the mapping from DID to MOAC blockchain address on the smart contract using the setRecord function, effectively 'anchoring' the DID to the smartcontract and making its DID Document accessable with only the DID. This anchoring process is analogous the the Create step of a CRUD database. This process is also tied to the creation of the DID, as the MOAC blockchain key pair used to generate the DID should also be the one to perform anchoring transaction on the smart contract.
